@@ -1,0 +1,21 @@
+[user]
+	name  = ktoshiya 
+	email = k.toshiya.1107@gmail.com
+[color]
+	ui = true
+[push]
+  default = simple
+[alias]
+	a = add
+  d = diff
+  co = checkout
+  ci = commit
+  ca = commit -a
+  ps = "!git push origin $(git rev-parse --abbrev-ref HEAD)"
+  pl = "!git pull origin $(git rev-parse --abbrev-ref HEAD)"
+  st = status
+  br = branch
+[fetch]
+	prune = true
+[pager]
+  branch = false
