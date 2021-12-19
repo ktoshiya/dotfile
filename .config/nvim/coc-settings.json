@@ -19,6 +19,7 @@
       "command": "docker-langserver",
       "filetypes": ["dockerfile"],
       "args": ["--stdio"]
-    }
+    },
+    "solargraph.commandPath": "/Users/tk/.rbenv/versions/2.7.0/bin/solargraph"
   }
 }

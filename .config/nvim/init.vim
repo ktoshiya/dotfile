@@ -132,7 +132,6 @@ vnoremap < <gv
 " ---------------------------------------------------------------------
 call plug#begin()
 Plug 'tpope/vim-rails'
-Plug 'tpope/vim-endwise'
 Plug 'ntk148v/vim-horizon'
 Plug 'preservim/nerdtree'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
