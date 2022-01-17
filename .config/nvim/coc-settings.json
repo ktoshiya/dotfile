@@ -9,6 +9,7 @@
   "eslint.packageManager": "yarn",
   "eslint.autoFixOnSave": true,
   "eslint.workingDirectories": [{"mode": "auto"}],
+  "solargraph.commandPath": "/Users/tk/.rbenv/shims/solargraph",
   "languageserver": {
     "terraform": {
 			"command": "terraform-lsp",
@@ -23,7 +24,6 @@
       "command": "docker-langserver",
       "filetypes": ["dockerfile"],
       "args": ["--stdio"]
-    },
-    "solargraph.commandPath": "/Users/tk/.rbenv/versions/2.7.0/bin/solargraph"
+    }
   }
 }
