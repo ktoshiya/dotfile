@@ -11,10 +11,14 @@
   "eslint.workingDirectories": [{"mode": "auto"}],
   "languageserver": {
     "terraform": {
-      "command": "terraform-lsp",
-      "filetypes": ["terraform"],
-      "initializationOptions": {}
-    },
+			"command": "terraform-lsp",
+			"filetypes": [
+				"terraform",
+				"tf"
+			],
+			"initializationOptions": {},
+			"settings": {}
+		},
     "dockerfile": {
       "command": "docker-langserver",
       "filetypes": ["dockerfile"],

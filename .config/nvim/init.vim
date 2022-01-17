@@ -101,7 +101,7 @@ map sj <C-w>j
 map sl <C-w>l
 nmap fg :GFile<Enter>
 nmap ff :FZF<Enter>
-nmap ff :FZF<Enter>
+nmap fb :Buffers<Enter>
 nmap fh :History<Enter>
 
 " xで削除した時はヤンクしない
@@ -137,7 +137,6 @@ Plug 'preservim/nerdtree'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 call plug#end()
 
 """ colors

@@ -45,3 +45,4 @@ export PATH="/usr/local/opt/libpq/bin:$PATH"
 
 # rbenv
 eval "$(rbenv init - zsh)"
+export PATH=$PATH:~/.bin
