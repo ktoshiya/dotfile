@@ -8,6 +8,8 @@ set -u
 BASEDIR=$(dirname $0)
 cd $BASEDIR
 
+# Install
+brew install nvim tmux reattach-to-user-namespace
 # dotfilesディレクトリにある、ドットから始まり2文字以上の名前のファイルに対して
 for f in .??*; do
     [ "$f" = ".git" ] && continue
